@@ -69,3 +69,39 @@ If you create an AWS account alias for your AWS account ID, your sign-in page UR
 
 
 ![image](https://github.com/user-attachments/assets/470755e4-bc7c-415b-ad9d-fa3396c694d6)
+
+# Create IAM Users and User Groups:
+
+![image](https://github.com/user-attachments/assets/78fe72b6-83c7-4824-8feb-9514b2f31d92)
+
+#  add Users to your user group:
+
+![image](https://github.com/user-attachments/assets/0abefd98-4eea-4bfc-a72c-e007339d7bc5)
+
+# LOGIN IN TO ALIAS ACC VIA PRIVATE TAB:
+
+![image](https://github.com/user-attachments/assets/c9457ea3-f706-461a-982e-876cac897e57)
+
+Head to your EC2 console, and make sure you're in the same Region as the one where you deployed your two production and development instances.
+
+Head to Instances.
+
+Select your production instance, and in the Actions dropdown, select Manage instance state.
+
+![image](https://github.com/user-attachments/assets/811ebbc6-a9be-4a30-993e-5404c0fd539b)
+
+#instance stopped bcoz the user has access to EC2 Service :
+
+![image](https://github.com/user-attachments/assets/fcf605a2-0eca-41a3-be07-48b30ee59e9f)
+
+
+# DELETE RESOURCES :
+
+![image](https://github.com/user-attachments/assets/de2b0518-1ce2-404a-b4b6-223ab120c60c)
+
+
+
+
+
+
+
