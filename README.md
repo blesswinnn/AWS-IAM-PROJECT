@@ -52,3 +52,20 @@ An IAM policy is a rule for who can do what with your AWS resources. It's all ab
     }    
   ] 
 }
+
+![image](https://github.com/user-attachments/assets/b121a802-d484-44fb-8f8a-6a8fb145f5b4)
+
+
+![image](https://github.com/user-attachments/assets/2ffa8242-a738-4614-813e-3b05abcc83a0)
+
+
+ #  AWS Account Alias:
+
+ An Account Alias is a friendly name for your AWS account that you can use instead of your account ID (which is usually a bunch of digits) to sign in to the AWS Management Console.
+
+Your AWS account's sign-in page has this URL by default: https://Your_Account_ID.signin.aws.amazon.com/console/
+
+If you create an AWS account alias for your AWS account ID, your sign-in page URL looks more like: https://Your_Account_Alias.signin.aws.amazon.com/console/
+
+
+![image](https://github.com/user-attachments/assets/470755e4-bc7c-415b-ad9d-fa3396c694d6)
