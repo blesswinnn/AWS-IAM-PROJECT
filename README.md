@@ -20,3 +20,35 @@ we'll be using the AWS Identity and Access Management (IAM) service to control w
 # IAM Policy:
 💡 What is a Policy?
 An IAM policy is a rule for who can do what with your AWS resources. It's all about giving permissions to IAM users, groups, or roles, saying what they can or can't do on certain resources, and when those rules kick in.
+
+# JSON FILE :
+
+
+ {    
+  "Version": "2012-10-17",    
+  "Statement": [        
+    {            
+      "Effect": "Allow",            
+      "Action": "ec2:*",            
+      "Resource": "*",            
+      "Condition": {                
+        "StringEquals": {                    
+          "ec2:ResourceTag/Env": "development"                
+        }            
+      }        
+    },        
+    {            
+      "Effect": "Allow",            
+      "Action": "ec2:Describe*",            
+      "Resource": "*"        
+    },        
+    {            
+      "Effect": "Deny",            
+      "Action": [                
+        "ec2:DeleteTags",                
+        "ec2:CreateTags"            
+      ],            
+      "Resource": "*"        
+    }    
+  ] 
+}
