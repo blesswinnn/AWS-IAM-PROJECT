@@ -83,14 +83,12 @@ If you create an AWS account alias for your AWS account ID, your sign-in page UR
 ![image](https://github.com/user-attachments/assets/c9457ea3-f706-461a-982e-876cac897e57)
 
 Head to your EC2 console, and make sure you're in the same Region as the one where you deployed your two production and development instances.
-
 Head to Instances.
-
 Select your production instance, and in the Actions dropdown, select Manage instance state.
 
 ![image](https://github.com/user-attachments/assets/811ebbc6-a9be-4a30-993e-5404c0fd539b)
 
-#instance stopped bcoz the user has access to EC2 Service :
+# instance stopped bcoz the user has access to EC2 Service :
 
 ![image](https://github.com/user-attachments/assets/fcf605a2-0eca-41a3-be07-48b30ee59e9f)
 
